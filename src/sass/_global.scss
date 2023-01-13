@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "Montserrat", "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #000000;
+  color: #ffffff;
+}
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+ul {
+  list-style-type: square;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+.btn__global {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  border: 2px solid #f57c00;
+  background-color: #f57c00;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  &:hover {
+    background: transparent;
+    color: #f57c00;
+  }
+  @include breakpoint-down(tab) {
+    padding: 1rem 2.5rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 1rem 2rem;
+  }
+}
+
+.hero {
+  height: 500px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #151415;
+    opacity: 0.7;
+  }
+  &__wrapper {
+    position: relative;
+    z-index: 100;
+    padding: 10rem 12rem;
+    @media screen and (max-width: 1700px) {
+      padding: 10rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 10rem 2rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 8rem 1rem;
+    }
+  }
+  &__content {
+    @include breakpoint-down(tab) {
+      text-align: center;
+    }
+    h2 {
+      font-size: 4rem;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #f57c00;
+      margin-bottom: 3rem;
+      @include breakpoint-down(tab) {
+        font-size: 3.6rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 3.2rem;
+      }
+    }
+    &-text {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+      width: 400px;
+      line-height: 25px;
+      @include breakpoint-down(tab) {
+        font-size: 16px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 15px;
+        width: 100%;
+      }
+    }
+    &-quote {
+      position: relative;
+      margin-top: 5rem;
+      float: right;
+      font-size: 18px;
+      font-style: italic;
+      font-weight: 300;
+      width: 300px;
+      text-align: center;
+      text-transform: uppercase;
+      @include breakpoint-down(tab) {
+        font-size: 15px;
+      }
+    }
+  }
+}

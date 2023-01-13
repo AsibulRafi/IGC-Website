@@ -1,0 +1,288 @@
+.trading {
+  padding: 10rem 12rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 2rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 1rem;
+  }
+  &__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+    @include breakpoint-down(tab) {
+      flex-direction: column;
+      gap: 3rem;
+    }
+    &-links {
+      flex-basis: 20%;
+      background-color: #151415;
+      padding: 3rem;
+      height: 300px;
+      @include breakpoint-down(tab) {
+        text-align: center;
+      }
+      h2 {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #f57c00;
+        margin-bottom: 2rem;
+      }
+      .link__active {
+        color: #fff;
+      }
+      a {
+        display: inline-block;
+        font-size: 16px;
+        color: #828282;
+        margin-block: 1rem;
+        text-transform: uppercase;
+      }
+    }
+    &-info {
+      flex-basis: 70%;
+      @include breakpoint-down(tab) {
+        text-align: center;
+      }
+      table {
+        width: 100%;
+        text-align: center;
+        border: none;
+        border-spacing: 0;
+        overflow-x: auto;
+        tbody {
+          tr {
+            display: flex;
+            &:nth-child(odd) {
+              background-color: #151415;
+            }
+            td {
+              flex: 1;
+              padding: 1rem;
+              font-size: 15px;
+              color: #fff;
+            }
+          }
+        }
+      }
+      &-heading {
+        font-size: 3.2rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #f57c00;
+        margin-bottom: 3rem;
+        @include breakpoint-down(tab) {
+          font-size: 2.8rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 2.2rem;
+        }
+      }
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 1rem;
+        @include breakpoint-down(mobile) {
+          font-size: 15px;
+        }
+      }
+    }
+    &-flex {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      @include breakpoint-down(tab) {
+        flex-direction: column;
+        gap: 4rem;
+      }
+      &-info {
+        position: relative;
+        flex-basis: 50%;
+        h2 {
+          font-size: 2.2rem;
+          text-transform: uppercase;
+          margin-bottom: 2rem;
+          font-weight: 400;
+          @include breakpoint-down(tab) {
+            font-size: 2rem;
+          }
+          @include breakpoint-down(mobile) {
+            font-size: 1.8rem;
+          }
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 1rem;
+          @include breakpoint-down(mobile) {
+            font-size: 15px;
+          }
+        }
+        &-quote {
+          font-weight: 300;
+          position: relative;
+          margin-top: 3rem;
+          margin-right: 3rem;
+          float: right;
+          font-style: italic;
+        }
+      }
+      &-img {
+        flex-basis: 40%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  &__table {
+    h2 {
+      font-size: 2.2rem;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 15px;
+      margin-block: 2rem;
+      line-height: 25px;
+      @include breakpoint-down(tab) {
+        text-align: center;
+        br {
+          display: none;
+        }
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 14px;
+      }
+    }
+
+    table {
+      width: 100%;
+      text-align: center;
+      border: none;
+      border-spacing: 0;
+      overflow-x: auto;
+      thead {
+        tr {
+          display: flex;
+          background-color: #f57c00;
+          th {
+            color: #fff;
+            padding: 1rem;
+            font-size: 15px;
+            flex: 1;
+            font-weight: 400;
+          }
+        }
+      }
+      tbody {
+        tr {
+          display: flex;
+          &:nth-child(odd) {
+            background-color: #151415;
+          }
+          td {
+            flex: 1;
+            padding: 1rem;
+            font-size: 15px;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+  &__hr {
+    border: 1px solid #aaa1aa;
+    margin-block: 3rem;
+  }
+  &__list {
+    margin-left: 3rem;
+    li {
+      &:not(:last-child) {
+        margin-bottom: 2rem;
+      }
+      &::marker {
+        font-size: 3rem;
+        color: #c4c4c4;
+      }
+      font-size: 18px;
+      color: #fff;
+      @include breakpoint-down(mobile) {
+        font-size: 16px;
+        &::marker {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  &__info {
+    margin-block: 5rem;
+    h2 {
+      font-size: 2.2rem;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      font-weight: 400;
+      @include breakpoint-down(tab) {
+        font-size: 2rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 1.8rem;
+      }
+    }
+    p {
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 1rem;
+      width: 1100px;
+      @include breakpoint-down(laptop) {
+        width: 100%;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 15px;
+      }
+    }
+    &-content {
+      display: flex;
+      flex-direction: row;
+      gap: 3rem;
+      @include breakpoint-down(tab) {
+        flex-direction: column;
+      }
+      &-single {
+        flex: 1;
+        h2 {
+          font-size: 2.2rem;
+          text-transform: uppercase;
+          margin-bottom: 2rem;
+          font-weight: 400;
+          @include breakpoint-down(tab) {
+            font-size: 2rem;
+          }
+          @include breakpoint-down(mobile) {
+            font-size: 1.8rem;
+          }
+        }
+        p {
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 1rem;
+          width: 400px;
+          @include breakpoint-down(tab) {
+            width: 100%;
+          }
+          @include breakpoint-down(mobile) {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

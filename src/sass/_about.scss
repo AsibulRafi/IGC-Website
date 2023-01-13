@@ -1,0 +1,255 @@
+.about__text {
+  padding: 10rem 12rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 2rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 1rem;
+  }
+  p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 2rem;
+    width: 1100px;
+    @include breakpoint-down(laptop) {
+      width: 100%;
+    }
+    @include breakpoint-down(tab) {
+      text-align: center;
+    }
+    @include breakpoint-down(mobile) {
+      font-size: 15px;
+    }
+  }
+}
+.about__info {
+  height: 500px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #151415;
+    opacity: 0.7;
+  }
+  &__wrapper {
+    position: relative;
+    z-index: 100;
+    padding: 10rem 12rem;
+    @media screen and (max-width: 1700px) {
+      padding: 10rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 10rem 2rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 8rem 1rem;
+    }
+    h4 {
+      font-size: 24px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 25px;
+      @include breakpoint-down(tab) {
+        font-size: 22px;
+        text-align: center;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 20px;
+      }
+    }
+    h1 {
+      position: relative;
+      float: right;
+      margin-top: 20rem;
+      font-size: 30px;
+      font-weight: 800;
+      @include breakpoint-down(tab) {
+        font-size: 28px;
+        margin-top: 18rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 26px;
+      }
+    }
+  }
+}
+.about__content {
+  padding: 10rem 12rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 2rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 1rem;
+  }
+  hr {
+    border: 1px solid #aaa1aa;
+    margin-bottom: 5rem;
+  }
+  h2 {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 29px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 3rem;
+  }
+  &-boxs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 3rem;
+    @include breakpoint-down(laptop) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include breakpoint-down(mobile) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  &-flex-box {
+    background-color: #151415;
+    padding: 2rem;
+    height: 400px;
+    width: 100%;
+    &-border {
+      border: 1px solid #aaa1aa;
+      height: 100%;
+      padding: 4rem;
+      position: relative;
+      h1 {
+        font-size: 3rem;
+        font-weight: 800;
+      }
+      p {
+        margin-top: 10rem;
+        font-size: 15px;
+        float: right;
+      }
+    }
+  }
+}
+.contact {
+  padding: 10rem 12rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 2rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 1rem;
+  }
+  &__heading {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 3rem;
+    @include breakpoint-down(tab) {
+      text-align: center;
+    }
+    @include breakpoint-down(mobile) {
+      font-size: 20px;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    @include breakpoint-down(tab) {
+      flex-direction: column;
+    }
+    &-info {
+      flex: 1;
+      border: 1px solid #c4c4c4;
+      &-phone {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid #c4c4c4;
+        &-icon {
+          flex-basis: 15%;
+          background-color: #151415;
+          padding: 2rem;
+          text-align: center;
+        }
+        p {
+          text-align: center;
+          flex-basis: 85%;
+          font-size: 16px;
+          @include breakpoint-down(mobile) {
+            font-size: 15px;
+          }
+        }
+      }
+      &-email {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        &-icon {
+          flex-basis: 15%;
+          background-color: #151415;
+          padding: 2rem;
+          text-align: center;
+        }
+        p {
+          text-align: center;
+          flex-basis: 85%;
+          font-size: 16px;
+          @include breakpoint-down(mobile) {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+    &-social {
+      flex: 1;
+      h2 {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        font-weight: 400;
+        @include breakpoint-down(tab) {
+          text-align: center;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 16px;
+        }
+      }
+      &-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        @include breakpoint-down(tab) {
+          justify-content: center;
+        }
+        img {
+          cursor: pointer;
+          &:not(:last-child) {
+            margin-right: 5rem;
+            @include breakpoint-down(mobile) {
+              margin-right: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

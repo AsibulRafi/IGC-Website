@@ -1,0 +1,464 @@
+.accounts__lord {
+  padding: 10rem 12rem 0rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 4rem 0rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 2rem 0rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 1rem 0rem;
+  }
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  @include breakpoint-down(tab) {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  &-table {
+    flex: 1;
+    table {
+      width: 100%;
+      border-spacing: 0;
+      border: 1px solid #c4c4c4;
+      thead {
+        background-color: #151415;
+        tr {
+          th {
+            padding: 3em 4rem;
+            font-size: 20px;
+            text-align: left;
+            @include breakpoint-down(mobile) {
+              padding: 2rem;
+            }
+          }
+          td {
+            padding: 2rem 1rem;
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: uppercase;
+            text-align: left;
+            span {
+              font-size: 14px !important;
+            }
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            border-bottom: 1px solid #c4c4c4;
+            padding: 2rem 4rem;
+            font-size: 16px;
+            font-weight: 500;
+            color: #e0e0e0;
+            &:first-child {
+              font-weight: 400;
+            }
+            @include breakpoint-down(mobile) {
+              padding: 1rem 2rem;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.accounts__royal {
+  padding: 10rem 12rem 0rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 4rem 0rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 2rem 0rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 1rem 0rem;
+  }
+  &-content {
+    background: #151415;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06),
+      0px 10px 16px rgba(21, 20, 21, 0.16);
+    padding: 2rem;
+    &-border {
+      border: 1px solid #c4c4c4;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 2rem;
+      padding: 4rem;
+      @include breakpoint-down(tab) {
+        flex-direction: column;
+        align-items: center;
+      }
+      @include breakpoint-down(mobile) {
+        padding: 2rem;
+      }
+      h2 {
+        flex-basis: 40%;
+        font-size: 2.4rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        @include breakpoint-down(tab) {
+          font-size: 2.2rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 2rem;
+        }
+      }
+      ul {
+        @include breakpoint-down(mobile) {
+          margin-left: 1rem;
+        }
+        li {
+          &:not(:last-child) {
+            margin-bottom: 1rem;
+          }
+          &::marker {
+            font-size: 3rem;
+            color: #c4c4c4;
+          }
+          font-size: 18px;
+          color: #fff;
+          @include breakpoint-down(mobile) {
+            font-size: 15px;
+            text-transform: uppercase;
+            &::marker {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.accounts__promotion {
+  padding: 10rem 12rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 2rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 1rem;
+  }
+  &-box {
+    background: #151415;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06),
+      0px 10px 16px rgba(21, 20, 21, 0.16);
+    padding: 4rem 6rem;
+    margin-bottom: 8rem;
+    h2 {
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 5rem;
+      @include breakpoint-down(tab) {
+        font-size: 2.2rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 2rem;
+      }
+    }
+    &-hr {
+      position: relative;
+      margin-block: 2rem;
+      h4 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: #151415;
+        padding: 1rem;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        @include breakpoint-down(tab) {
+          font-size: 18px;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 14px;
+        }
+      }
+      hr {
+        border: 1px solid #c4c4c4;
+      }
+    }
+    &-account {
+      margin-top: 5rem;
+      border: 1px solid #c4c4c4;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem 0rem;
+      gap: 2rem;
+      @include breakpoint-down(mobile) {
+        flex-direction: column;
+        gap: 0rem;
+      }
+      h1 {
+        font-size: 10rem;
+        font-family: "Montserrat", sans-serif !important;
+        font-weight: 700;
+        @include breakpoint-down(mobile) {
+          font-size: 8rem;
+        }
+      }
+      h3 {
+        font-size: 2.4rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        @include breakpoint-down(mobile) {
+          text-align: center;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+  &-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 2rem;
+    @media screen and (max-width: 1100px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 700px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &-single {
+      width: 100%;
+      height: 230px;
+      background-color: #151415;
+      padding: 2rem;
+      &-wrapper {
+        border: 1px solid #c4c4c4;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        height: 100%;
+        @include breakpoint-down(mobile) {
+          padding: 1rem;
+        }
+        img {
+          margin-right: 5rem;
+          @include breakpoint-down(mobile) {
+            margin-right: 2rem;
+          }
+          @media screen and (max-width: 300px) {
+            width: 100%;
+          }
+        }
+        h4 {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 24px;
+          @include breakpoint-down(mobile) {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+.promotion__heading {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+  @include breakpoint-down(tab) {
+    font-size: 2.2rem;
+  }
+  @include breakpoint-down(mobile) {
+    font-size: 2rem;
+  }
+}
+.education__box {
+  margin: 10rem 12rem;
+  @media screen and (max-width: 1700px) {
+    margin: 10rem 4rem;
+  }
+  @include breakpoint-down(tab) {
+    margin: 10rem 2rem;
+  }
+  @include breakpoint-down(mobile) {
+    margin: 8rem 1rem;
+  }
+  background: #151415;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.06),
+    0px 10px 16px rgba(21, 20, 21, 0.16);
+  padding: 3rem;
+  &-wrapper {
+    border: 1px solid #c4c4c4;
+    padding: 2rem;
+  }
+  &-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-block: 5rem;
+    @include breakpoint-down(tab) {
+      flex-direction: column;
+      align-items: center;
+      gap: 3rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 2rem;
+    }
+    h2 {
+      flex-basis: 40%;
+      font-size: 2.4rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      @include breakpoint-down(tab) {
+        font-size: 2.2rem;
+      }
+      @include breakpoint-down(mobile) {
+        font-size: 2rem;
+      }
+    }
+    ul {
+      @include breakpoint-down(mobile) {
+        margin-left: 1rem;
+      }
+      li {
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+        &::marker {
+          font-size: 3rem;
+          color: #c4c4c4;
+        }
+        font-size: 18px;
+        color: #fff;
+        @include breakpoint-down(mobile) {
+          font-size: 15px;
+          text-transform: uppercase;
+          &::marker {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+  }
+  &-info {
+    width: 1200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #272527;
+    padding: 5rem;
+    margin-bottom: 5rem;
+    @include breakpoint-down(laptop) {
+      width: 100%;
+    }
+    &-content {
+      display: flex;
+      flex-direction: row;
+      gap: 3rem;
+      margin-bottom: 5rem;
+      justify-content: space-between;
+      @include breakpoint-down(tab) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      h2 {
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+    p {
+      text-align: right;
+      font-size: 14px;
+      line-height: 21px;
+      @include breakpoint-down(tab) {
+        text-align: center;
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.webinars {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &__wrapper {
+    padding: 10rem 12rem;
+    @media screen and (max-width: 1700px) {
+      padding: 10rem 4rem;
+    }
+    @include breakpoint-down(tab) {
+      padding: 10rem 2rem;
+    }
+    @include breakpoint-down(mobile) {
+      padding: 8rem 1rem;
+    }
+  }
+  h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    @include breakpoint-down(tab) {
+      text-align: center;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    @include breakpoint-down(tab) {
+      flex-direction: column;
+      gap: 5rem;
+      align-items: center;
+      text-align: center;
+    }
+    &-heading {
+      flex-basis: 30%;
+      h1 {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43px;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    &-info {
+      flex-basis: 60%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5rem;
+      @include breakpoint-down(mobile) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      h2 {
+        font-size: 2.2rem;
+        font-weight: 500;
+      }
+    }
+  }
+  .btn__global {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

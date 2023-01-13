@@ -1,0 +1,134 @@
+.documentation {
+  padding: 10rem 12rem;
+  @media screen and (max-width: 1700px) {
+    padding: 10rem 4rem;
+  }
+  @include breakpoint-down(tab) {
+    padding: 10rem 2rem;
+  }
+  @include breakpoint-down(mobile) {
+    padding: 8rem 1rem;
+  }
+  &__content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    @include breakpoint-down(tab) {
+      flex-direction: column;
+      gap: 3rem;
+    }
+    &-links {
+      flex-basis: 20%;
+      background-color: #151415;
+      padding: 3rem;
+      height: 380px;
+      @include breakpoint-down(tab) {
+        text-align: center;
+      }
+      h2 {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: #f57c00;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+      }
+      .link__active {
+        color: #fff;
+      }
+      a {
+        display: inline-block;
+        font-size: 16px;
+        color: #828282;
+        margin-block: 1rem;
+        text-transform: uppercase;
+      }
+    }
+    &-info {
+      flex-basis: 70%;
+      @include breakpoint-down(tab) {
+        text-align: center;
+      }
+      &-heading {
+        font-size: 4rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #f57c00;
+        margin-bottom: 3rem;
+        @include breakpoint-down(tab) {
+          font-size: 3.6rem;
+        }
+        @include breakpoint-down(mobile) {
+          font-size: 3.2rem;
+        }
+      }
+      h2 {
+        font-size: 2.2rem;
+        font-weight: 400;
+        margin-bottom: 2rem;
+      }
+      p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 2rem;
+        @include breakpoint-down(mobile) {
+          font-size: 15px;
+        }
+      }
+      ul {
+        margin-left: 3rem;
+        margin-block: 5rem;
+        @include breakpoint-down(mobile) {
+          margin-left: 1rem;
+        }
+        li {
+          &:not(:last-child) {
+            margin-bottom: 2rem;
+          }
+          &::marker {
+            font-size: 3rem;
+            color: #c4c4c4;
+          }
+          font-size: 18px;
+          color: #fff;
+          @include breakpoint-down(mobile) {
+            font-size: 16px;
+            &::marker {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+      &-content {
+        border-left: 1px solid #c4c4c4;
+        padding-left: 5rem;
+        position: relative;
+        &-single {
+          margin-block: 10rem;
+          &-heading {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            align-items: center;
+            margin-bottom: 2rem;
+          }
+          &-dot {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #f57c00;
+            border-radius: 50%;
+            left: -1%;
+          }
+          h2 {
+            text-align: left !important;
+            font-weight: 500;
+          }
+          p {
+            text-align: left !important;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}
