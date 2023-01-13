@@ -28,14 +28,14 @@ const Regulation = () => {
           <div className="documentation__content-info">
             <h1 className="documentation__content-info-heading">Regulation</h1>
             <p>
-              NONAME - NONAME LTD is a leading Group of Companies offering
+              OQP-FX - OQP-FX LTD is a leading Group of Companies offering
               investment services and activities to its clients since 1987.
-              “NONAME LTD” is a brand name used by the following companies:
+              “OQP-FX LTD” is a brand name used by the following companies:
             </p>
             <div className="documentation__content-info-content">
               <div className="documentation__content-info-content-single">
                 <div className="documentation__content-info-content-single-dot"></div>
-                <h2>No Name</h2>
+                <h2>OQP-FX</h2>
                 <p>
                   Licensed by the International Financial Service Commission of
                   Belize for providing Brokerage, Consultancy, Advisory
@@ -44,7 +44,7 @@ const Regulation = () => {
               </div>
               <div className="documentation__content-info-content-single">
                 <div className="documentation__content-info-content-single-dot"></div>
-                <h2>No Name</h2>
+                <h2>OQP-FX</h2>
                 <p>
                   Authorised and regulated by the Cyprus Securities and Exchange
                   Commission (licence number 030/04), the supervisory and

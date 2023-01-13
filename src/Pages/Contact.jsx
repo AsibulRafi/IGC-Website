@@ -25,7 +25,7 @@ const Contact = () => {
               <div className="contact__content-info-email-icon">
                 <img src={images.message} alt="emailIcon" />
               </div>
-              <p>support@Noname.com</p>
+              <p>support@oqp-fx.com</p>
             </div>
           </div>
           <div className="contact__content-social">

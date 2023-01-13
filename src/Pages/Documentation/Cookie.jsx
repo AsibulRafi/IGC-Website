@@ -30,23 +30,23 @@ const Cookie = () => {
               COOKIE POLICY
             </h1>
             <p>
-              NONAME and the Group of Companies within NONAME, (collectively as
-              “NONAME”, “we” and “us”) has prepared this “cookie policy” which
+              OQP-FX and the Group of Companies within OQP-FX, (collectively as
+              “OQP-FX”, “we” and “us”) has prepared this “cookie policy” which
               provides overview and explanation related to the online use of the
-              website: www.Noname.com
+              website: www.OQP-FX.com
             </p>
             <p>
-              NONAME is committed to delivering the best possible service to
+              OQP-FX is committed to delivering the best possible service to
               you, and we provide clear information about how we use and store
               cookies from our website on your device(s).
             </p>
             <p>
-              By continuing to use the NONAME website, you confirm that you are
-              of legal age, and expressly agree and consent to NONAME’s cookie
+              By continuing to use the OQP-FX website, you confirm that you are
+              of legal age, and expressly agree and consent to OQP-FX’s cookie
               policy and privacy policy.
             </p>
             <p>
-              As an overview, NONAME’s website uses cookies for statistical
+              As an overview, OQP-FX’s website uses cookies for statistical
               purposes, improving the quality of services to the user, verifying
               your identity and detecting which country you are located in,
               checking browser type and device, may be used to track which site
@@ -56,7 +56,7 @@ const Cookie = () => {
             <h2>WHAT ARE COOKIES?</h2>
             <p>
               Cookies are small files that are placed on your device via your
-              web browser when you visit NONAME’s website. Information is
+              web browser when you visit OQP-FX’s website. Information is
               stored, such as the specific preferences when using the website.
               It is to be noted that you can configure your browser not to save
               any or only certain cookies on your device. Cookies can also help
@@ -70,9 +70,9 @@ const Cookie = () => {
               with remains on your hard drive for a period of time, Analytical
               cookies which collect information about past visits in order to
               determine visits to the website, add-ons, and other information
-              that assist us in improving the services offered by NONAME, and
+              that assist us in improving the services offered by OQP-FX, and
               Third Party Service Cookies which is related to social sharing,
-              video and other services NONAME may offer run by other companies,
+              video and other services OQP-FX may offer run by other companies,
               for example: Facebook, YouTube, etc.
             </p>
             <h2>YOUR CHOICE WITH RESPECT TO COOKIES:</h2>

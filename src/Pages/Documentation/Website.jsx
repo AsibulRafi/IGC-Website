@@ -29,20 +29,20 @@ const Website = () => {
             <h1 className="documentation__content-info-heading">Website</h1>
             <h2>Ownership of Website and Legal background</h2>
             <p>
-              NONAME LTD (“NONAME” or “Company”) is a registered European
-              company and the “Website”,NONAME.com, is owned and operated by
-              NONAME LTD, with all rights reserved. The product(s) and
-              service(s) within, remains and is the sole property of the NONAME
+              OQP-FX LTD (“OQP-FX” or “Company”) is a registered European
+              company and the “Website”,OQP-FX.com, is owned and operated by
+              OQP-FX LTD, with all rights reserved. The product(s) and
+              service(s) within, remains and is the sole property of the OQP-FX
               Group of Companies which offer investment services and activities
               to its clients Since 1987. All Intellectual Property within and
-              arising from the Website is owned by NONAME Group of Companies,
-              and NONAME Group of Companies reserves all rights therein. These
+              arising from the Website is owned by OQP-FX Group of Companies,
+              and OQP-FX Group of Companies reserves all rights therein. These
               terms and conditions are supplementary to any
               agreement(s)/document(s) the User signs with the entities within
-              the NONAME Group.
+              the OQP-FX Group.
             </p>
             <p>
-              NONAME is a brand name of NONAME LTD, Registrated, Regulated and
+              OQP-FX is a brand name of OQP-FX LTD, Registrated, Regulated and
               licensed, regulated and licensed by the International Financial
               Services Commission (“IFSC”), and a brand name for Seldon for
               Investments Ltd (Jordan) duly licensed and regulated by the
@@ -56,7 +56,7 @@ const Website = () => {
               by the terms and conditions herein and arising from the use of the
               website, at any given time, in any given location and in
               accordance with the entity in which the User will proceed to open
-              account(s) with. NONAME reserves the right to use its discretion
+              account(s) with. OQP-FX reserves the right to use its discretion
               to suspend, modify, amend and/or cancel any access to the Website,
               or any part thereof, including the products and/or services so
               offered through the Website. The Company may change the terms and
@@ -177,7 +177,7 @@ const Website = () => {
               accordance with the time frame, if any, of the payment
               provider(s). The Group of Companies, deals with several
               first-class banks and client funds are held in segregated
-              accounts, ensuring the continued safety of funds. NONAME-- LTD is
+              accounts, ensuring the continued safety of funds. OQP-FX-- LTD is
               the EU registered company facilitating payment services to the
               Group of Company as the case may be.
             </p>

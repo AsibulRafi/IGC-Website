@@ -30,7 +30,7 @@ const Privacy = () => {
               PRIVACY POLICY
             </h1>
             <p>
-              NONAME and NONAME of Companies, (collectively as “NONAME”, “NONAME
+              OQP-FX and OQP-FX of Companies, (collectively as “OQP-FX”, “OQP-FX
               Group”, “we” and “us”) has prepared this privacy policy which
               provides overview and explanation as to how we treat the personal
               information of individuals who are users of our website,
@@ -40,19 +40,19 @@ const Privacy = () => {
             </p>
             <p>
               This Privacy Policy is directed to natural persons who are either
-              current and/or potential clients of NONAME or are authorized
+              current and/or potential clients of OQP-FX or are authorized
               representatives/agents or beneficial owners of legal entities or
               of natural persons which/who are current or potential clients of
-              NONAME, whereby NONAME will gather various types of information,
+              OQP-FX, whereby OQP-FX will gather various types of information,
               which includes information identifying you as an individual, this
-              is known as “Personal data” and/or “data”. NONAME is committed to
+              is known as “Personal data” and/or “data”. OQP-FX is committed to
               protecting your personal data and respects your privacy.
             </p>
             <p>
-              By continuing to use the NONAME LTD website, and/or any other
-              services and products offered by and through NONAME, you confirm
+              By continuing to use the OQP-FX LTD website, and/or any other
+              services and products offered by and through OQP-FX, you confirm
               that you are of legal age, and expressly agree with this Privacy
-              Policy and consent to NONAME processing the data, by manual and/or
+              Policy and consent to OQP-FX processing the data, by manual and/or
               automated means. This includes the collections, recording,
               organization, structuring, storage, adaptation or alteration,
               retrieval, consultation, use, disclosure by transmission,
@@ -68,7 +68,7 @@ const Privacy = () => {
               The new data protection law in Cyprus is in effect as of 25 May
               2018, better known as the General Data Protection Regulation
               (“GDPR”). This Privacy Policy sets out the rights and duties
-              within the new legislation related to GDPR, and NONAMEare hre to
+              within the new legislation related to GDPR, and OQP-FXare hre to
               service your request(s) related to personal data, subject to the
               systems being ready for such request(s), and we undertake to
               provide you with the service required the soonest for request made
@@ -98,10 +98,10 @@ const Privacy = () => {
             </p>
             <p>
               We collect information about criminal convictions and offences,
-              politically exposed person “PEP”. NONAME may run client/potential
-              client details through international databases. NONAME may also
+              politically exposed person “PEP”. OQP-FX may run client/potential
+              client details through international databases. OQP-FX may also
               collect and process personal data which is lawfully obtained not
-              only from you but from other entities within the NONAME Group, or
+              only from you but from other entities within the OQP-FX Group, or
               other third parties, e.g. credit reference agencies, public
               authorities, companies/persons that introduce you to us, companies
               that process card payments such as JCC Payment Systems Ltd. We may
@@ -130,7 +130,7 @@ const Privacy = () => {
               </li>
               <li>
                 Identifying the client and suitability of the client in relation
-                to the products and services offered and provided by NONAME;
+                to the products and services offered and provided by OQP-FX;
               </li>
               <li>
                 Improving the quality of services to natural/legal persons;
@@ -160,24 +160,24 @@ const Privacy = () => {
             <h2>DISCLOSURE OF DATA</h2>
             <p>
               Your personal data will be kept confidential and will be treated
-              as such, it is to be noted that NONAME will only disclose website
+              as such, it is to be noted that OQP-FX will only disclose website
               usage data and/or personal data, to third parties as permitted by
-              law(s), where and if NONAME is legally obliged to do so or if such
-              disclosure becomes necessary to enforce NONAME rights in
+              law(s), where and if OQP-FX is legally obliged to do so or if such
+              disclosure becomes necessary to enforce OQP-FX rights in
               particular to enforce claims arising from a contractual
               relationship, or required to comply with any judicial, and/or
               other proceedings, court order, legal process or pursuant to any
               governmental, intergovernmental and/or other regulatory bodies,
-              whereby such disclosure may be executed by NONAME without prior
-              notice to you. NONAME will not be liable for unlawful or
+              whereby such disclosure may be executed by OQP-FX without prior
+              notice to you. OQP-FX will not be liable for unlawful or
               unauthorized use of your personal
               information/passwords/username/login, etc due to misuse or
               misplacement of your passwords, negligent or malicious
-              intervention and/or otherwise. NONAME may disclose your personal
+              intervention and/or otherwise. OQP-FX may disclose your personal
               data to but not limited to business introducers, affiliates, any
-              of the entities within the NONAMEGroup of Companies, (who might
-              process data on behalf of NONAME and who may only use it for the
-              same purposes as NONAME), third party service providers in order
+              of the entities within the OQP-FXGroup of Companies, (who might
+              process data on behalf of OQP-FX and who may only use it for the
+              same purposes as OQP-FX), third party service providers in order
               to process obligations arising from the agreement, financial
               institutions, banks, other similar organizations that we deal with
               in course of corporate business, external service providers and
@@ -188,25 +188,25 @@ const Privacy = () => {
             </p>
             <h2>MONITORING AND RECORDING</h2>
             <p>
-              NONAME will as required by the Law, monitor and record any
+              OQP-FX will as required by the Law, monitor and record any
               communication you have with us whether in writing, by phone or by
               electronic mail.
             </p>
             <h2>SECURITY MEASURES</h2>
             <p>
-              NONAME takes all appropriate security measures to ensure that the
+              OQP-FX takes all appropriate security measures to ensure that the
               personal data/data collected and stored in connection with your
               visit to the website and/or in relation to the services and
-              products provided by NONAME is protected against any unauthorized
-              access, misuse, loss and/or destruction. NONAME uses physical and
+              products provided by OQP-FX is protected against any unauthorized
+              access, misuse, loss and/or destruction. OQP-FX uses physical and
               electronic security measures, including but not limited to the use
               of firewalls, personal passwords, encryption and authentication
-              technologies. NONAME’s employees and service providers are bound
+              technologies. OQP-FX’s employees and service providers are bound
               by professional secrecy and must comply with all data protection
               provisions. It is to be noted, that access to personal data is
               restricted to specific employees, contractors and third party
               service providers who require this access in order to process the
-              agreement between NONAME and you, all on a “need to know” basis
+              agreement between OQP-FX and you, all on a “need to know” basis
               and to be able to execute all obligations emanating from the
               agreements in place.
             </p>
@@ -219,15 +219,15 @@ const Privacy = () => {
               in order to protect your personal data. Please note that all your
               actions while using this website may be recorded and analyzed for
               various purposes, including security, marketing and system
-              monitoring purposes. NONAME adheres to strict security standards
+              monitoring purposes. OQP-FX adheres to strict security standards
               using the most up to date security technologies.
             </p>
             <h2>COOKIES</h2>
             <p>
-              NONAME’s website uses cookies for statistical purposes and in
+              OQP-FX’s website uses cookies for statistical purposes and in
               order to improve the quality of services to the user. Cookies are
               small files that are placed on your device via your web browser
-              when you visit NONAME’s website. Information is stored, such as
+              when you visit OQP-FX’s website. Information is stored, such as
               the specific preferences when using the website. It is to be noted
               that you can configure your browser not to save any or only
               certain cookies on your device. There are different types of
@@ -260,18 +260,18 @@ const Privacy = () => {
             </p>
             <h2>RECORD KEEPING</h2>
             <p>
-              NONAME will keep your personal data/data for as long as we have a
+              OQP-FX will keep your personal data/data for as long as we have a
               business relationship with you (as an individual or in respect of
               our dealings with a legal entity you are authorized to represent
               or are a beneficial owner), and in accordance with the minimum
               period of retainment of personal data depending on the agreement
-              executed by the User and the legal entity within the Group. NONAME
+              executed by the User and the legal entity within the Group. OQP-FX
               shall not be required to delete data made pursuant to automatic
               archiving and back-up procedures in its IT systems, where a
               deletion is not possible or not possible without commercially
               unreasonable efforts. For prospective clients, personal data (or
               authorized representative/agents/or beneficial owners of a legal
-              entity prospective client), NONAME keeps your personal data for as
+              entity prospective client), OQP-FX keeps your personal data for as
               long as legally entitled to, unless you have officially requested
               deletion from the records.
             </p>

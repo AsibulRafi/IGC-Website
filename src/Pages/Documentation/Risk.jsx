@@ -62,8 +62,8 @@ const Risk = () => {
               and/or software. The result of any system failure may be that your
               request is not executed according to instructions or not executed
               at all. All transactions effected are at your sole risk and you
-              shall be solely liable under all circumstances. NONAME and the
-              NONAME Group of Companies, will not be held responsible for any
+              shall be solely liable under all circumstances. OQP-FX and the
+              OQP-FX Group of Companies, will not be held responsible for any
               delays in transmission, delivery or execution of your request(s)
               due to malfunctions of communications facilities or other causes.
             </p>
@@ -104,7 +104,7 @@ const Risk = () => {
               currency.
             </p>
             <p>
-              You understand that NONAME nor the NONAME Group of Companies does
+              You understand that OQP-FX nor the OQP-FX Group of Companies does
               not guarantee access to the Website and/or any of the products
               and/or services to be available at all times, or in any given
               location at any specific time.
@@ -112,7 +112,7 @@ const Risk = () => {
             <p>
               All transactions effected for your account(s) are at your sole
               risk and you shall be solely liable under all circumstances.
-              NONAME and the NONAME Group of Companies will not be held
+              OQP-FX and the OQP-FX Group of Companies will not be held
               responsible for any delays in transmission, delivery or execution
               of your request(s) due to malfunctions of communications
               facilities or other causes.

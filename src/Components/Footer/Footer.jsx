@@ -44,19 +44,18 @@ const Footer = () => {
         </div>
         <div className="footer__info">
           <p>
-            No Name, is licensed and regulated by Jordan Securities Commission
-            (JSC).Noname is offering Forex and CFD trading on gold, oil, soft
-            commodities, shares, indices and more.Noname is committed to
+            OQP-FX, is licensed and regulated by Jordan Securities Commission
+            (JSC).OQP-FX is offering Forex and CFD trading on gold, oil, soft
+            commodities, shares, indices and more.OQP-FX is committed to
             maintain the highest standards of ethical behavior, professionalism,
             integrity, as well as a high level of trust and confidence.Services
-            and products offered by Noname are not intended to be used by
-            residents of the United States of America, Belize. Noname (WB)
+            and products offered by OQP-FX are not intended to be used by
+            residents of the United States of America, Belize. OQP-FX (WB)
             Global Ltd is the EU registered company facilitating payment
-            services to Noname
+            services to OQP-FX
           </p>
           <h4>Risk Warning</h4>
           <p>
-            {" "}
             Contracts for Difference (CFD) are complex financial instruments
             carrying a substantial level of risk, and may not be suitable for
             all investors, as may result in a loss of all invested capital
@@ -67,7 +66,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer__copyright">
-          This website is owned and operated by Noname. – All rights reserved ©
+          This website is owned and operated by OQP-FX. – All rights reserved ©
           2023
         </div>
       </div>

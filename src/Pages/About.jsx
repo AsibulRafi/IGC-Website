@@ -7,14 +7,14 @@ const About = () => {
   return (
     <>
       <Hero
-        heading="No Name"
+        heading="OQP-FX"
         text="Your Broker for all Forex & CFD need: About us."
         quote="The Trading Market is big. Our aspirations are bigger."
         bgImg={images.aboutBg}
       />
       <div className="about__text">
         <p>
-          When we established Noname (PSF Brokers), 30+ years ago, we had one
+          When we established OQP-FX (PSF Brokers), 30+ years ago, we had one
           goal in mind: to make the opportunities of investing in the world's
           financial markets available for anyone, anywhere, anytime.
         </p>

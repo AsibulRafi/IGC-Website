@@ -41,7 +41,7 @@ const Trading = () => {
                   </h2>
                 </div>
                 <p>
-                  These are the terms and conditions by which NONAME LTD agrees
+                  These are the terms and conditions by which OQP-FX LTD agrees
                   to open and maintain trading accounts for the client and the
                   client agrees to comply with. Included within are: Client
                   Account Agreement, Online Access Agreement, Mobile Trading

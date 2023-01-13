@@ -41,7 +41,7 @@ const CFDTrading = () => {
               of units depending on whether they think that the price of the
               financial instrument will increase or decrease.
             </p>
-            <p>Noname offers a variety of CFD instruments.</p>
+            <p>OQP-FX offers a variety of CFD instruments.</p>
           </div>
         </div>
         <div className="trading__table">
